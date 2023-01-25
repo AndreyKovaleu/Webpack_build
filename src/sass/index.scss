@@ -1,0 +1,16 @@
+// @import "~normalize.css";
+@import "qqq";
+@import "fonts";
+
+body {
+  background-color: $color;
+  user-select: none;
+  font-family: "Roboro";
+}
+
+.image {
+  width: 300px;
+  height: 500px;
+  background-size: cover;
+  background-image: url("../img/q.png");
+}
